@@ -1,0 +1,144 @@
+*{
+    font-family: Poppins;
+}
+
+nav {
+    background-color: #c43030;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-left {
+    flex: 1;
+    text-align: left;
+}
+
+.navbar-center {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-right {
+    flex: 1;
+    text-align: right;
+}
+
+.menu-container {
+    width: calc(50% - 20px);
+    margin: 20px 10px;
+    float: left;
+}
+
+.menu-item {
+    border: 1px solid #c21616;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-container h2{
+    color: rgb(226, 26, 26);
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.description {
+    margin-bottom: 10px;
+    color: rgb(20, 20, 20);
+}
+
+.price {
+    font-weight: bold;
+    color: #f5ebeb;
+}
+
+.basket-container {
+    width: calc(50% - 20px);
+    margin: 20px 10px;
+    float: right;
+}
+
+.basket-items {
+    border: 1px solid #da6767;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.basket-item h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #a81a15;
+}
+
+input[type="submit"][name="add_to_basket"] {
+    background-color: #e23f3f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="submit"][name="clear_basket"] {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="submit"][name="checkout.php"] {
+    background-color: #119911;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

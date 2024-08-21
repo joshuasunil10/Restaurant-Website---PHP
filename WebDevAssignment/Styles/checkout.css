@@ -1,0 +1,164 @@
+/* Styles for menu.css */
+
+/* Update font family to a KFC-like font */
+body {
+    font-family: Poppins;
+}
+
+/* Update colors to KFC's red and white */
+/* Navbar styles */
+nav {
+    background-color: #c43030; /* Dark background color for the navbar */
+    padding: 10px 0; /* Padding around the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Align items vertically */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add some space between each list item */
+}
+
+a {
+    color: #fff; /* Text color of the links */
+    text-decoration: none; /* Remove default underline */
+    font-size: 18px; /* Font size of the links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.logo {
+    width: 120px; /* Set the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the logo and links */
+}
+
+.navbar-left {
+    flex: 1; /* Take up available space */
+    text-align: left; /* Align items to the left */
+}
+
+.navbar-center {
+    flex: 1; /* Take up available space */
+    text-align: center; /* Align items to the center */
+}
+
+.navbar-right {
+    flex: 1; /* Take up available space */
+    text-align: right; /* Align items to the right */
+}
+
+
+.basket-container {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.basket-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #CC0000; /* Red color for prices */
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Add KFC branding to basket heading */
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Add KFC branding to basket items */
+.basket-item h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* Styles for Return to Menu link */
+/* Styles for Return to Menu button */
+.return-to-menu {
+    display: inline-block;
+    background-color: #ba2b00; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.return-to-menu:hover {
+    background-color: #3d0802; /* Darker Blue on hover */
+}
+
+
+
+.Payment-Info {
+    display: inline-block;
+    background-color: #ba2b00; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Payment-Info:hover {
+    background-color: #bcc3c6; /* Darker Blue on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: px;
+}
+
+#basket, #payment {
+    width: 45%; /* Adjust width as needed */
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #basket, #payment {
+        width: 100%;
+    }
+}
+

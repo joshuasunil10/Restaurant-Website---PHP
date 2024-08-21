@@ -1,0 +1,53 @@
+*{
+    font-family: Poppins;
+}
+
+nav {
+    background-color: #c43030;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-left {
+    flex: 1;
+    text-align: left;
+}
+
+.navbar-center {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-right {
+    flex: 1;
+    text-align: right;
+}
